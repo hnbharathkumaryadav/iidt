@@ -1,4 +1,4 @@
-const url = 'https://api.openweathermap.org/data/2.5/weather';
+ const url = 'https://api.openweathermap.org/data/2.5/weather';
 const apiKey = 'f00c38e0279b7bc';
 
 $(document).ready(function () {
@@ -45,3 +45,12 @@ function weatherShowFn(data) {
     $('#weather-icon').attr('src', `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`);
     $('#weather-info').fadeIn();
 }
+
+
+
+
+
+
+
+
+
