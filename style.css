@@ -3,22 +3,22 @@ body {
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center; 
-    height: 100vh; 
+    align-items: center;
+    height: 100vh;
     background: linear-gradient(to right, #955251, #6B5B95);
 }
 
 .container {
-    text-align: center;
+    text-align: corner;
 }
 
 .weather-card {
-    background-color: rgba(255, 245, 255, 0.94); 
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1); 
+    background-color: rgba(255, 245, 255, 0.94);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
     width: 650px;
-    padding: 20px; 
-    border-radius: 10px; 
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .weather-card:hover {
@@ -40,16 +40,16 @@ body {
 }
 
 #city-input::placeholder {
-    color: #aBa; 
+    color: #aBa;
 }
 
 #city-input-btn {
     padding: 10px;
     background-color: #FF6F61;
-    color: #fff; 
+    color: #fff;
     cursor: pointer;
-    border: none; 
-    border-radius: 5px; 
+    border: none;
+    border-radius: 5px;
 }
 
 #city-input-btn:hover {
